@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Parker Moore"]
   spec.email         = ["parkrmoore@gmail.com"]
   spec.summary       = "A basic Sass converter for Jekyll."
-  spec.homepage      = "https://github.com/jekyll/jekyll-sass-converter"
+  spec.homepage      = "https://github.com/CloudCannon/jekyll-sass-converter"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").grep(%r!^lib/!)
@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.5.0"
 
-  spec.add_runtime_dependency "sassc", "> 2.0.1", "< 3.0"
+  spec.add_runtime_dependency "sass-embedded"
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"

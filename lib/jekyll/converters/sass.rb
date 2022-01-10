@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "sassc"
+require "sass-embedded"
 require "jekyll/utils"
 require "jekyll/converters/scss"
 
