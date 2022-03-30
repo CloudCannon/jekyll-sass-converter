@@ -1,4 +1,8 @@
-## HEAD
+## 2.2.0 / 2022-02-28
+
+### Minor Enhancements
+
+  * Support sass-embedded as alternative implementation (#124)
 
 ### Bug Fixes
 
@@ -9,14 +13,14 @@
 
   * Migrate from AppVeyor CI to GH Actions (#125)
   * Refactor specs to reduce repetition (#126)
-
-### Minor Enhancements
-
-  * Support sass-embedded as alternative implementation (#124)
+  * Reduce overall class size (#132)
+  * Use new sass-embedded api (#131)
+  * Add workflow to release gem via GH Actions (#134)
 
 ### Documentation
 
   * Update CI status badge (#127)
+  * Update `sass-embedded` info in `README.md` (#133)
 
 ## 2.1.0 / 2020-02-05
 
